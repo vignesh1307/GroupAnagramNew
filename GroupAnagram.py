@@ -9,7 +9,7 @@ def group_anagrams(words):
         sorted_word = tuple(sorted(word))
         anagrams[sorted_word].append(word)
     return list(anagrams.values())
-    print("anagrams are :" + anagrams)
+    print("dictionary of anagrams are :" + anagrams)
 
 
 
